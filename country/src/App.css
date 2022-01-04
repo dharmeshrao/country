@@ -1,6 +1,28 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.App {
+  width: 300px;
+  padding-top: 200px;
+  margin: auto;
+}
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 18px;
+  border-bottom: 2px solid black;
+}
+input:focus {
+  outline: none;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
